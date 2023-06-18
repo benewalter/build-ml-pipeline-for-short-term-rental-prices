@@ -5,7 +5,6 @@ dependencies:
   - conda-forge::jupyterlab
   - conda-forge::seaborn
   - conda-forge::pandas
-  - conda-forge::pip
   - conda-forge::pandas-profiling
   - conda-forge::pyarrow
   - conda-forge::wandb
