@@ -4,7 +4,7 @@ channels:
 dependencies:
   - conda-forge::jupyterlab
   - conda-forge::seaborn
-  - conda-forge::pandas=1.2.3
+  - conda-forge::pandas
   - conda-forge::pip
   - conda-forge::pandas-profiling
   - conda-forge::pyarrow
