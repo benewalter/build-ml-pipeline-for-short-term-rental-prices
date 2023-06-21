@@ -34,7 +34,7 @@ def go(args):
     df['last_review'] = pd.to_datetime(df['last_review'])
         
     logger.info("Saving cleaned data to CSV")
-    df.to_csv("clean_sample.csv", index=False
+    df.to_csv("clean_sample.csv", index=False)
     
     logger.info("Creating artifact")
     artifact = wandb.Artifact(
@@ -42,8 +42,8 @@ def go(args):
          type=args.output_type,
          description=args.output_description,
      )
-     artifact.add_file("clean_sample.csv")
-     run.log_artifact(artifact)
+    artifact.add_file("clean_sample.csv")
+    run.log_artifact(artifact)
 
 
 if __name__ == "__main__":
